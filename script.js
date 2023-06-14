@@ -2,5 +2,5 @@
 window.addEventListener("DOMContentLoaded", (event) => {
  let ph = document.createElement("p");
 	ph.innerHTML="DOM load success";
-	body.appendChild(ph)
+	document.body.appendChild(ph)
 });
